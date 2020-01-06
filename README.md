@@ -30,7 +30,6 @@ I used a [Trello board](https://trello.com/b/346mxqyH/job-interviews) to keep tr
 1. [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
 1. [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
 1. [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
-1. [3Sum](https://leetcode.com/problems/3sum/)
 1. [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
 1. [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 
@@ -145,55 +144,255 @@ I used a [Trello board](https://trello.com/b/346mxqyH/job-interviews) to keep tr
 <details>
    	<summary>Graphs</summary>
 
+### Medium
+
+1. [Clone Graph](https://leetcode.com/problems/clone-graph/)
+1. [Course Schedule](https://leetcode.com/problems/course-schedule/)
+1. [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)
+1. [Number of Islands](https://leetcode.com/problems/number-of-islands/)
+1. [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)
+1. [Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
+
 </details>
 
 <details>
    	<summary>Intervals</summary>
+
+### Easy
+
+1. [Meeting Rooms](https://leetcode.com/problems/meeting-rooms)
+
+### Medium
+
+1. [Merge Intervals](https://leetcode.com/problems/merge-intervals/)
+1. [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)
+1. [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)
+1. [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)
+1. [Task Scheduler](https://leetcode.com/problems/task-scheduler/)
+1. [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)
+
+### Hard
+
+1. [Insert Interval](https://leetcode.com/problems/insert-interval/)
+1. [Employee Free Time](https://leetcode.com/problems/employee-free-time/)
 
 </details>
 
 <details>
    	<summary>K-way Merge</summary>
 
+### Easy
+
+1. [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
+
+### Hard
+
+1. [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
+
 </details>
 
 <details>
    	<summary>Linked Lists</summary>
+
+### Easy
+
+1. [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
+
+### Medium
+
+1. [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)
+1. [Rotate List](https://leetcode.com/problems/rotate-list/)
+1. [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
+1. [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)
+
+### Hard
+
+1. [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)
 
 </details>
 
 <details>
    	<summary>Matrices</summary>
 
+### Medium
+
+1. [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
+1. [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
+1. [Rotate Image](https://leetcode.com/problems/rotate-image/)
+1. [Word Search](https://leetcode.com/problems/word-search/)
+1. [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)
+
+</details>
+
+<details>
+   	<summary>Sliding Window</summary>
+
+### Medium
+
+1. [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
+1. [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/)
+1. [Permutation in String](https://leetcode.com/problems/permutation-in-string/)
+1. [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
+1. [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+
+### Hard
+
+1. [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
+1. [Minimum Number of K Consecutive Bit Flips](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/)
+1. [Unique Letter String](https://leetcode.com/problems/unique-letter-string/)
+1. [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)
+
+</details>
+
+<details>
+   	<summary>Top K Elements</summary>
+
+### Medium
+
+1. [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
+1. [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)
+1. [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
+1. [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)
+1. [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+1. [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)
+1. [Reorganize String](https://leetcode.com/problems/reorganize-string/)
+
+### Hard
+
+1. [Rearrange String k Distance Apart](https://leetcode.com/problems/rearrange-string-k-distance-apart)
+1. [Course Schedule III](https://leetcode.com/problems/course-schedule-iii/)
+1. [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)
+
 </details>
 
 <details>
    	<summary>Topological Sort</summary>
+
+### Medium
+
+1. [Course Schedule](https://leetcode.com/problems/course-schedule/)
+1. [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
+1. [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)
+
+### Hard
+
+1. [Alien Dictionary](https://leetcode.com/problems/alien-dictionary)
+1. [Sequence Reconstruction](https://leetcode.com/problems/sequence-reconstruction)
 
 </details>
 
 <details>
    	<summary>Tree: BFS</summary>
 
+### Easy
+
+1. [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)
+1. [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)
+1. [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
+
+### Medium
+
+1. [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+1. [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
+1. [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
+1. [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)
+1. [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)
+1. [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)
+1. [Boundary of Binary Tree](https://leetcode.com/problems/boundary-of-binary-tree)
+
 </details>
 
 <details>
    	<summary>Tree: Binary Search</summary>
+
+### Easy
+
+1. [Binary Search](https://leetcode.com/problems/binary-search/)
+1. [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)
+1. [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)
+
+### Medium
+
+1. [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
+1. [Find Peak Element](https://leetcode.com/problems/find-peak-element/)
+1. [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+1. [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)
+1. [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
+1. [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
+
+### Hard
+
+1. [Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/)
 
 </details>
 
 <details>
    	<summary>Tree: DFS</summary>
 
+### Easy
+
+1. [Same Tree](https://leetcode.com/problems/same-tree/)
+1. [Path Sum](https://leetcode.com/problems/path-sum/)
+1. [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)
+1. [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)
+1. [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
+1. [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
+1. [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)
+1. [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
+
+### Medium
+
+1. [Path Sum II](https://leetcode.com/problems/path-sum-ii/)
+1. [Path Sum III](https://leetcode.com/problems/path-sum-iii/)
+1. [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+1. [Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)
+1. [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)
+1. [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+1. [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
+1. [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
+1. [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
+
+### Hard
+
+1. [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
+1. [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
+1. [Word Search II](https://leetcode.com/problems/word-search-ii/)
+
 </details>
 
 <details>
    	<summary>Two Heaps</summary>
 
+### Hard
+
+1. [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
+1. [Sliding Window Median](https://leetcode.com/problems/sliding-window-median/)
+1. [IPO](https://leetcode.com/problems/ipo/)
+
 </details>
 
 <details>
    	<summary>Two Pointers</summary>
+
+### Easy
+
+1. [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
+1. [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
+1. [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)
+1. [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare)
+
+### Medium
+
+1. [3Sum](https://leetcode.com/problems/3sum/)
+1. [3Sum Closest](https://leetcode.com/problems/3sum-closest/)
+1. [Subarrays with Product Less than K](https://leetcode.com/problems/subarray-product-less-than-k/)
+1. [Sort Colours](https://leetcode.com/problems/sort-colors/)
+
+### Hard
+
+1. [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
+1. [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
+1. [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
 
 </details>
 
@@ -201,5 +400,6 @@ I used a [Trello board](https://trello.com/b/346mxqyH/job-interviews) to keep tr
 
 The questions were almost exclusively sourced from the following resources:
 
-* [Curated List of Top 75 LeetCode Questions to Save Your Time](https://www.teamblind.com/article/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU)
+* [Blind Top 75 LeetCode Questions](https://www.teamblind.com/article/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU)
 * [LeetCode Study List by Sean Prashad](https://github.com/SeanPrashad/lc)
+* [14 Patterns to Ace Any Coding Interview Question](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
