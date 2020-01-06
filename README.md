@@ -4,7 +4,7 @@ A set of solutions to LeetCode questions that I solved in preparation for softwa
 
 ## Overview
 
-Having recently graduated from Georgia Tech's OMSCS program, I had taken a graduate-level algorithms course, which provided the necessary theoretical background for me start practicing with LeetCode problems almost immediately upon starting my job search. Additionally, I reviewed the following resources concurrently with LeetCode practice:
+Having recently graduated from Georgia Tech's OMSCS program, I finished my last semester with an algorithms course, which provided the necessary theoretical background for me start practicing with LeetCode problems almost immediately upon starting my job search. Additionally, I reviewed the following resources concurrently with LeetCode practice:
 
 * Cracking the Coding Interview, 6th Edition
 * Elements of Programming Interviews in Python
@@ -121,7 +121,7 @@ I used a [Trello board](https://trello.com/b/346mxqyH/job-interviews) to keep tr
 </details>
 
 <details>
-   	<summary>Fast and Slow Pointers</summary>
+    <summary>Fast and Slow Pointers</summary>
 
 ### Easy
 
@@ -142,12 +142,11 @@ I used a [Trello board](https://trello.com/b/346mxqyH/job-interviews) to keep tr
 </details>
 
 <details>
-   	<summary>Graphs</summary>
+    <summary>Graphs</summary>
 
 ### Medium
 
 1. [Clone Graph](https://leetcode.com/problems/clone-graph/)
-1. [Course Schedule](https://leetcode.com/problems/course-schedule/)
 1. [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)
 1. [Number of Islands](https://leetcode.com/problems/number-of-islands/)
 1. [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)
@@ -156,7 +155,7 @@ I used a [Trello board](https://trello.com/b/346mxqyH/job-interviews) to keep tr
 </details>
 
 <details>
-   	<summary>Intervals</summary>
+    <summary>Intervals</summary>
 
 ### Easy
 
@@ -179,7 +178,7 @@ I used a [Trello board](https://trello.com/b/346mxqyH/job-interviews) to keep tr
 </details>
 
 <details>
-   	<summary>K-way Merge</summary>
+    <summary>K-way Merge</summary>
 
 ### Easy
 
@@ -187,12 +186,12 @@ I used a [Trello board](https://trello.com/b/346mxqyH/job-interviews) to keep tr
 
 ### Hard
 
-1. [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
+1. [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 
 </details>
 
 <details>
-   	<summary>Linked Lists</summary>
+    <summary>Linked Lists</summary>
 
 ### Easy
 
@@ -212,7 +211,7 @@ I used a [Trello board](https://trello.com/b/346mxqyH/job-interviews) to keep tr
 </details>
 
 <details>
-   	<summary>Matrices</summary>
+    <summary>Matrices</summary>
 
 ### Medium
 
@@ -225,7 +224,7 @@ I used a [Trello board](https://trello.com/b/346mxqyH/job-interviews) to keep tr
 </details>
 
 <details>
-   	<summary>Sliding Window</summary>
+    <summary>Sliding Window</summary>
 
 ### Medium
 
@@ -245,7 +244,7 @@ I used a [Trello board](https://trello.com/b/346mxqyH/job-interviews) to keep tr
 </details>
 
 <details>
-   	<summary>Top K Elements</summary>
+    <summary>Top K Elements</summary>
 
 ### Medium
 
@@ -266,7 +265,7 @@ I used a [Trello board](https://trello.com/b/346mxqyH/job-interviews) to keep tr
 </details>
 
 <details>
-   	<summary>Topological Sort</summary>
+    <summary>Topological Sort</summary>
 
 ### Medium
 
@@ -282,7 +281,7 @@ I used a [Trello board](https://trello.com/b/346mxqyH/job-interviews) to keep tr
 </details>
 
 <details>
-   	<summary>Tree: BFS</summary>
+    <summary>Tree: BFS</summary>
 
 ### Easy
 
@@ -303,7 +302,7 @@ I used a [Trello board](https://trello.com/b/346mxqyH/job-interviews) to keep tr
 </details>
 
 <details>
-   	<summary>Tree: Binary Search</summary>
+    <summary>Tree: Binary Search</summary>
 
 ### Easy
 
@@ -327,7 +326,7 @@ I used a [Trello board](https://trello.com/b/346mxqyH/job-interviews) to keep tr
 </details>
 
 <details>
-   	<summary>Tree: DFS</summary>
+    <summary>Tree: DFS</summary>
 
 ### Easy
 
@@ -361,7 +360,7 @@ I used a [Trello board](https://trello.com/b/346mxqyH/job-interviews) to keep tr
 </details>
 
 <details>
-   	<summary>Two Heaps</summary>
+    <summary>Two Heaps</summary>
 
 ### Hard
 
@@ -372,12 +371,11 @@ I used a [Trello board](https://trello.com/b/346mxqyH/job-interviews) to keep tr
 </details>
 
 <details>
-   	<summary>Two Pointers</summary>
+    <summary>Two Pointers</summary>
 
 ### Easy
 
 1. [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
-1. [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
 1. [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)
 1. [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare)
 
@@ -392,7 +390,6 @@ I used a [Trello board](https://trello.com/b/346mxqyH/job-interviews) to keep tr
 
 1. [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
 1. [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
-1. [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
 
 </details>
 
