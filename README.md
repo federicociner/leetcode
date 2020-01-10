@@ -19,7 +19,6 @@ I used a [Trello board](https://trello.com/b/346mxqyH/job-interviews) to keep tr
 ### Easy
 
 1. [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
-1. [Missing Number](https://leetcode.com/problems/missing-number/)
 1. [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)
 1. [Single Number](https://leetcode.com/problems/single-number/)
 1. [Two Sum](https://leetcode.com/problems/two-sum/)
