@@ -27,5 +27,27 @@ from typing import List
 
 
 class Solution:
+    # Time complexity: O(n)
+    # Space complexity: O(1)
     def maxProfit(self, prices: List[int]) -> int:
-        pass
+        max_profit = 0
+        min_price = float("inf")
+
+        for price in prices:
+            min_price = min(min_price, price)
+            profit = price - min_price
+            max_profit = max(max_profit, profit)
+
+        return max_profit
+
+
+if __name__ == "__main__":
+    s = Solution()
+
+    # Example 1
+    x = [7, 1, 5, 3, 6, 4]
+    assert s.maxProfit(x) == 5
+
+    # Example 2
+    y = [7, 6, 4, 3, 1]
+    assert s.maxProfit(y) == 0

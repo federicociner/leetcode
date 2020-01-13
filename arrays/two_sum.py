@@ -16,6 +16,8 @@ from typing import List
 
 
 class Solution:
+    # Time complexity: O(n)
+    # Space complexity: O(n)
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         d = {}
 
@@ -31,7 +33,7 @@ class Solution:
 if __name__ == "__main__":
     s = Solution()
 
-    # test input
+    # Example
     nums = [2, 7, 11, 15]
     target = 22
     res = s.twoSum(nums, target)
