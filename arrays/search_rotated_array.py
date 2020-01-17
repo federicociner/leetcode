@@ -26,11 +26,14 @@ from typing import List
 
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
+        if not nums:
+            return -1
+
         high = len(nums) - 1
         low = 0
 
         while low < high:
-            mid = int((high + low) / 2)
+            mid = low + int((high - low) / 2)
 
             if (nums[mid] < nums[0]) == (target < nums[0]):
                 if nums[mid] < target:

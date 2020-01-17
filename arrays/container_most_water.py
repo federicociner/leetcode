@@ -15,6 +15,8 @@ from typing import List
 
 
 class Solution:
+    # Time complexity: O(n)
+    # Space complexity: O(1)
     def maxArea(self, height: List[int]) -> int:
         i = 0
         j = len(height) - 1
