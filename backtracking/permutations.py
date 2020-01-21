@@ -19,10 +19,10 @@ from typing import List
 
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
-        visited = []
+        visited = [False] * len(nums)
         res = []
 
-        self.backtrack(nums, visited, [], res)
+        self.backtrack(sorted(nums), visited, [], res)
 
         return res
 
@@ -33,14 +33,14 @@ class Solution:
         sub: List[int],
         res: List[List[int]],
     ):
-        if len(sub) == len(nums) and sub not in res:
+        if len(sub) == len(nums):
             res.append(sub)
 
         for i in range(len(nums)):
-            if i not in visited:
-                visited.append(i)
+            if not visited[i]:
+                visited[i] = True
                 self.backtrack(nums, visited, sub + [nums[i]], res)
-                visited.remove(i)
+                visited[i] = False
 
 
 if __name__ == "__main__":

@@ -17,7 +17,7 @@ from typing import List
 
 class Solution:
     def permuteUnique(self, nums: List[int]) -> List[List[int]]:
-        visited = []
+        visited = [False] * len(nums)
         res = []
 
         self.backtrack(sorted(nums), visited, [], res)
@@ -33,21 +33,21 @@ class Solution:
     ):
         if len(sub) == len(nums):
             res.append(sub)
-            return
 
         for i in range(len(nums)):
-            if i not in visited:
-                visited.append(i)
+            if not visited[i]:
+                if i > 0 and not visited[i - 1] and nums[i] == nums[i - 1]:
+                    continue
+                visited[i] = True
                 self.backtrack(nums, visited, sub + [nums[i]], res)
-                visited.remove(i)
+                visited[i] = False
 
 
 if __name__ == "__main__":
     s = Solution()
 
     # Example 1
-    actual = s.permuteUnique([1, 2, 2])
-    print(actual)
+    actual = s.permuteUnique([1, 1, 2])
     expected = [[1, 1, 2], [1, 2, 1], [2, 1, 1]]
 
     assert len(actual) == len(expected)
