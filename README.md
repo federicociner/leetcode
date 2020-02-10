@@ -6,8 +6,8 @@ A set of solutions to LeetCode questions that I solved in preparation for softwa
 
 Having recently graduated from Georgia Tech's OMSCS program, I finished my last semester with an algorithms course, which provided the necessary theoretical background for me start practicing with LeetCode problems almost immediately upon starting my job search. Additionally, I reviewed the following resources concurrently with LeetCode practice:
 
-* Cracking the Coding Interview, 6th Edition
-* Elements of Programming Interviews in Python
+- Cracking the Coding Interview, 6th Edition
+- Elements of Programming Interviews in Python
 
 ## Questions
 
@@ -23,6 +23,8 @@ I used a [Trello board](https://trello.com/b/346mxqyH/job-interviews) to keep tr
 1. [Single Number](https://leetcode.com/problems/single-number/)
 1. [Two Sum](https://leetcode.com/problems/two-sum/)
 1. [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+1. [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
+1. [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)
 
 ### Medium
 
@@ -62,6 +64,7 @@ I used a [Trello board](https://trello.com/b/346mxqyH/job-interviews) to keep tr
 1. [Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)
 1. [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
 1. [Generalized Abbreviation](https://leetcode.com/problems/generalized-abbreviation/)
+1. [Minesweeper](https://leetcode.com/problems/minesweeper/)
 
 ### Hard
 
@@ -83,6 +86,15 @@ I used a [Trello board](https://trello.com/b/346mxqyH/job-interviews) to keep tr
 ### Medium
 
 1. [Counting Bits](https://leetcode.com/problems/counting-bits/)
+
+</details>
+
+<details>
+    <summary>Design</summary>
+
+### Easy
+
+1. [Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/)
 
 </details>
 
@@ -206,6 +218,15 @@ I used a [Trello board](https://trello.com/b/346mxqyH/job-interviews) to keep tr
 ### Hard
 
 1. [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)
+
+</details>
+
+<details>
+    <summary>Math</summary>
+
+### Easy
+
+1. [Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)
 
 </details>
 
@@ -396,6 +417,6 @@ I used a [Trello board](https://trello.com/b/346mxqyH/job-interviews) to keep tr
 
 The questions were almost exclusively sourced from the following resources:
 
-* [Blind Top 75 LeetCode Questions](https://www.teamblind.com/article/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU)
-* [LeetCode Study List by Sean Prashad](https://github.com/SeanPrashad/lc)
-* [14 Patterns to Ace Any Coding Interview Question](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
+- [Blind Top 75 LeetCode Questions](https://www.teamblind.com/article/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU)
+- [LeetCode Study List by Sean Prashad](https://github.com/SeanPrashad/lc)
+- [14 Patterns to Ace Any Coding Interview Question](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
