@@ -18,14 +18,23 @@ from typing import List
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         res = []
-        self.generateParenthesis(n, n, "", res)
+        self.backtrack(n, n, "", res)
 
         return res
 
     def backtrack(
         self, left: int, right: int, sub: List[str], res: List[List[str]]
     ):
-        pass
+        if right < left:
+            return
+
+        if left == 0 and right == 0:
+            res.append(sub)
+
+        if left > 0:
+            self.backtrack(left - 1, right, sub + "(", res)
+        if right > 0:
+            self.backtrack(left, right - 1, sub + ")", res)
 
 
 if __name__ == "__main__":
