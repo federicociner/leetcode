@@ -189,23 +189,11 @@ I used a [Trello board](https://trello.com/b/346mxqyH/job-interviews) to keep tr
 </details>
 
 <details>
-    <summary>K-way Merge</summary>
-
-### Easy
-
-1. [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
-
-### Hard
-
-1. [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
-
-</details>
-
-<details>
     <summary>Linked Lists</summary>
 
 ### Easy
 
+1. [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 1. [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
 
 ### Medium
@@ -217,6 +205,7 @@ I used a [Trello board](https://trello.com/b/346mxqyH/job-interviews) to keep tr
 
 ### Hard
 
+1. [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 1. [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)
 
 </details>
