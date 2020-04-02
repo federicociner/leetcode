@@ -31,6 +31,7 @@ class Solution:
         for n in nums:
             if n in res.keys():
                 return True
+
             res[n] = True
 
         return False

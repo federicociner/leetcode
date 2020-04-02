@@ -17,6 +17,8 @@ from typing import List
 
 
 class Solution:
+    # Time complexity: O(n)
+    # Space complexity: O(1), not including output array
     def findDuplicates(self, nums: List[int]) -> List[int]:
         res = []
 
@@ -32,6 +34,12 @@ class Solution:
 if __name__ == "__main__":
     s = Solution()
 
-    # Example
+    # Example 1
     x = [4, 3, 2, 7, 8, 2, 3, 1]
-    assert s.findDuplicates(x) == [2, 3]
+    assert sorted(s.findDuplicates(x)) == [2, 3]
+
+    # Example 2
+    # x = [1, 2, 3, 3, 5, 6, 6, 8]
+    # assert sorted(s.findDuplicates(x)) == [3, 6]
+
+    print("All tests passed.")

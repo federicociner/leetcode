@@ -24,6 +24,9 @@ class Solution:
     # Time complexity: O(n)
     # Space complexity: O(1)
     def singleNumber(self, nums: List[int]) -> int:
+        if not nums:
+            return 0
+
         res = 0
 
         for num in nums:

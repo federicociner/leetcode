@@ -21,8 +21,10 @@ from typing import List
 
 
 class Solution:
+    # Time complexity: O(n^2)
+    # Space complexity: O(n^2)
     def generate(self, numRows: int) -> List[List[int]]:
-        pascal = [[1] * (i + 1) for i in range(numRows)]
+        pascal = [[1 for _ in range(i + 1)] for i in range(numRows)]
 
         for i in range(numRows):
             for j in range(1, i):
@@ -35,6 +37,13 @@ if __name__ == "__main__":
     s = Solution()
 
     # Example 1
+    numRows = 4
+    expected = [[1], [1, 1], [1, 2, 1], [1, 3, 3, 1]]
+    assert s.generate(numRows) == expected
+
+    # Example 2
     numRows = 5
     expected = [[1], [1, 1], [1, 2, 1], [1, 3, 3, 1], [1, 4, 6, 4, 1]]
-    assert s.generate(5) == expected
+    assert s.generate(numRows) == expected
+
+    print("All tests passed.")

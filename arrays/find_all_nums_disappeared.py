@@ -20,23 +20,23 @@ from typing import List
 
 class Solution:
     # Time complexity: O(n)
-    # Space complexity: O(n)
+    # Space complexity: O(1), not including output array
     def findDisappearedNumbers(self, nums: List[int]) -> List[int]:
-        size = len(nums)
+        for n in nums:
+            index = abs(n) - 1
 
-        for i in range(size):
-            index = abs(nums[i]) - 1
-            nums[index] = -abs(nums[index])
+            if nums[index] > 0:
+                nums[index] *= -1
 
-        return [i + 1 for i in range(size) if nums[i] > 0]
+        return [i + 1 for i, n in enumerate(nums) if n > 0]
 
 
 if __name__ == "__main__":
     s = Solution()
 
     # Example 1
-    x = [4, 3, 2, 7, 8, 2, 3, 1]
-    assert s.findDisappearedNumbers(x) == [5, 6]
+    x = [1, 2, 2, 3, 4, 6, 8, 9, 9]
+    assert s.findDisappearedNumbers(x) == [5, 7]
 
     # Example 2
     y = [1, 2, 3, 5, 5]

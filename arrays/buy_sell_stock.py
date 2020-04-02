@@ -30,13 +30,16 @@ class Solution:
     # Time complexity: O(n)
     # Space complexity: O(1)
     def maxProfit(self, prices: List[int]) -> int:
-        max_profit = 0
-        min_price = float("inf")
+        if not prices:
+            return 0
 
-        for price in prices:
-            min_price = min(min_price, price)
-            profit = price - min_price
-            max_profit = max(max_profit, profit)
+        max_profit = 0
+        min_price = prices[0]
+
+        for p in prices:
+            min_price = min(p, min_price)
+            profit = p - min_price
+            max_profit = max(profit, max_profit)
 
         return max_profit
 
@@ -51,3 +54,5 @@ if __name__ == "__main__":
     # Example 2
     y = [7, 6, 4, 3, 1]
     assert s.maxProfit(y) == 0
+
+    print("All tests passed.")

@@ -38,7 +38,12 @@ from typing import List
 
 
 class Solution:
+    # Time complexity: O(n)
+    # Space complexity: O(1)
     def maxProfit(self, prices: List[int]) -> int:
+        if not prices:
+            return 0
+
         max_profit = 0
 
         for i in range(0, len(prices) - 1):
@@ -62,3 +67,5 @@ if __name__ == "__main__":
     # Example 3
     prices = [7, 6, 4, 3, 1]
     assert s.maxProfit(prices) == 0
+
+    print("All tests passed.")

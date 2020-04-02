@@ -29,13 +29,24 @@ class Solution:
 
             d[n] = i
 
+        return [-1, -1]
+
 
 if __name__ == "__main__":
     s = Solution()
 
-    # Example
+    # Example 1
     nums = [2, 7, 11, 15]
     target = 22
     res = s.twoSum(nums, target)
 
     assert nums[res[0]] + nums[res[1]] == target
+
+    # Example 2
+    nums = [5, 9, 23, 6]
+    target = 28
+    res = s.twoSum(nums, target)
+
+    assert nums[res[0]] + nums[res[1]] == target
+
+    print("All tests passed.")

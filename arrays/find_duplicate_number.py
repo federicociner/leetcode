@@ -17,7 +17,7 @@ Note:
 
     - You must not modify the nums (assume the nums is read only).
     - You must use only constant, O(1) extra space.
-    - Your runtime complexity should be less than O(n2).
+    - Your runtime complexity should be less than O(n^2).
     - There is only one duplicate number in the nums, but it could be repeated
     more than once.
 
@@ -26,7 +26,12 @@ from typing import List
 
 
 class Solution:
+    # Time complexity: O(n)
+    # Space complexity: O(1)
     def findDuplicate(self, nums: List[int]) -> int:
+        if not nums or len(nums) == 1:
+            return -1
+
         slow = nums[0]
         fast = nums[nums[0]]
 
@@ -34,8 +39,8 @@ class Solution:
             slow = nums[slow]
             fast = nums[nums[fast]]
 
-        fast = 0
-        while fast != slow:
+        slow = 0
+        while slow != fast:
             slow = nums[slow]
             fast = nums[fast]
 
@@ -52,3 +57,5 @@ if __name__ == "__main__":
     # Example 2
     y = [3, 1, 3, 4, 2]
     assert s.findDuplicate(y) == 3
+
+    print("All tests passed.")

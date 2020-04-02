@@ -18,19 +18,19 @@ from typing import List
 
 
 class Solution:
+    # Time complexity: O(n)
+    # Space complexity: O(1), not counting output array
     def productExceptSelf(self, nums: List[int]) -> List[int]:
-        p = 1
-        res = []
-        size = len(nums)
+        res = [1] * len(nums)
 
-        for i in range(0, size):
-            res.append(p)
-            p *= nums[i]
+        for i in range(1, len(nums)):
+            res[i] = res[i - 1] * nums[i - 1]
+        print(res)
 
         p = 1
-        for i in range(size - 1, -1, -1):
+        for i in range(len(nums) - 2, -1, -1):
+            p *= nums[i + 1]
             res[i] *= p
-            p *= nums[i]
 
         return res
 
@@ -41,3 +41,7 @@ if __name__ == "__main__":
     # Example
     x = [1, 2, 3, 4]
     assert s.productExceptSelf(x) == [24, 12, 8, 6]
+
+    # Example 2
+    x = [2, 3, 4, 5]
+    assert s.productExceptSelf(x) == [60, 40, 30, 24]
