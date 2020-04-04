@@ -26,7 +26,6 @@ class Solution:
         if not nums:
             return [[]]
 
-        # run DFS
         res = []
         self.dfs(sorted(nums), 0, [], res)
 
@@ -69,3 +68,5 @@ if __name__ == "__main__":
 
     assert len(actual) == len(expected)
     assert all(i in actual for i in expected)
+
+    print("All tests passed.")

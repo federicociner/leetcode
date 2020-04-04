@@ -21,16 +21,19 @@ class Solution:
     # Time complexity: O(n)
     # Space complexity: O(1), not counting output array
     def productExceptSelf(self, nums: List[int]) -> List[int]:
-        res = [1] * len(nums)
+        size = len(nums)
+        R, L, res = [0] * size, [0] * size, [0] * size
 
-        for i in range(1, len(nums)):
-            res[i] = res[i - 1] * nums[i - 1]
-        print(res)
+        L[0] = 1
+        for i in range(1, size):
+            L[i] = nums[i - 1] * L[i - 1]
 
-        p = 1
-        for i in range(len(nums) - 2, -1, -1):
-            p *= nums[i + 1]
-            res[i] *= p
+        R[size - 1] = 1
+        for i in reversed(range(size - 1)):
+            R[i] = nums[i + 1] * R[i + 1]
+
+        for i in range(size):
+            res[i] = L[i] * R[i]
 
         return res
 
@@ -45,3 +48,5 @@ if __name__ == "__main__":
     # Example 2
     x = [2, 3, 4, 5]
     assert s.productExceptSelf(x) == [60, 40, 30, 24]
+
+    print("All tests passed.")

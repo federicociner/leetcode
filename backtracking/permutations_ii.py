@@ -52,3 +52,12 @@ if __name__ == "__main__":
 
     assert len(actual) == len(expected)
     assert all(i in actual for i in expected)
+
+    # Example 2
+    actual = s.permuteUnique([1, 3, 3])
+    expected = [[1, 3, 3], [3, 1, 3], [3, 3, 1]]
+
+    assert len(actual) == len(expected)
+    assert all(i in actual for i in expected)
+
+    print("All tests passed.")

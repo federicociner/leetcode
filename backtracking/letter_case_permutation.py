@@ -22,30 +22,44 @@ from typing import List
 
 
 class Solution:
+    # Time complexity: O(2^n * n)
+    # Space complexity: O(2^n * n)
     def letterCasePermutation(self, S: str) -> List[str]:
         res = []
-
-        def backtrack(sub: str = "", i: int = 0):
-            if len(sub) == len(S):
-                res.append(sub)
-            else:
-                if S[i].isalpha():
-                    backtrack(sub + S[i].swapcase(), i + 1)
-                backtrack(sub + S[i], i + 1)
-
-        backtrack()
+        self.backtrack(S, 0, "", res)
 
         return res
+
+    def backtrack(self, S: str, idx: int, sub: str, res: List[str]):
+        # substring length is equal to length of S, all characters traversed
+        if idx == len(S):
+            res.append(sub)
+
+            return
+
+        # not alphabetical => one backtrack call
+        if S[idx].lower() == S[idx].upper():
+            self.backtrack(S, idx + 1, sub + S[idx], res)
+
+        # alphabetical => two backtrack calls
+        else:
+            self.backtrack(S, idx + 1, sub + S[idx].upper(), res)
+            self.backtrack(S, idx + 1, sub + S[idx].lower(), res)
 
 
 if __name__ == "__main__":
     s = Solution()
 
-    # Examples
-    res1 = s.letterCasePermutation("a1b2")
-    res2 = s.letterCasePermutation("3z4")
-    res3 = s.letterCasePermutation("12345")
+    # Example 1
+    res = s.letterCasePermutation("a1b2")
+    assert all(i in res for i in ["a1b2", "a1B2", "A1b2", "A1B2"])
 
-    assert all(i in res1 for i in ["a1b2", "a1B2", "A1b2", "A1B2"])
-    assert all(i in res2 for i in ["3z4", "3Z4"])
-    assert all(i in res3 for i in ["12345"])
+    # Example 2
+    res = s.letterCasePermutation("12345")
+    assert all(i in res for i in ["12345"])
+
+    # Example 3
+    res = s.letterCasePermutation("3z4")
+    assert all(i in res for i in ["3z4", "3Z4"])
+
+    print("All tests passed.")

@@ -27,28 +27,31 @@ class Solution:
         if not nums:
             return [[]]
 
-        # run DFS
         res = []
         self.dfs(nums, 0, [], res)
 
         return res
 
     def dfs(
-        self, nums: List[int], index: int, p: List[int], res: List[List[int]]
+        self, nums: List[int], idx: int, p: List[int], res: List[List[int]]
     ):
         res.append(p)
 
-        for i in range(index, len(nums)):
+        for i in range(idx, len(nums)):
             self.dfs(nums, i + 1, p + [nums[i]], res)
 
 
 if __name__ == "__main__":
     s = Solution()
 
-    # Examples
-    res1 = s.subsets([1, 2, 3])
+    # Example 1
+    expected = [[3], [1], [2], [1, 2, 3], [1, 3], [2, 3], [1, 2], []]
+    actual = s.subsets([1, 2, 3])
+    assert all(i in actual for i in expected)
 
-    assert all(
-        i in res1
-        for i in [[3], [1], [2], [1, 2, 3], [1, 3], [2, 3], [1, 2], []]
-    )
+    # Example 2
+    expected = [[], [1], [1, 2], [2]]
+    actual = s.subsets([1, 2])
+    assert all(i in actual for i in expected)
+
+    print("All tests passed.")

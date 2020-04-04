@@ -37,6 +37,12 @@ class Solution:
 if __name__ == "__main__":
     s = Solution()
 
-    # Example
+    # Example 1
     x = [1, 8, 6, 2, 5, 4, 8, 3, 7]
     assert s.maxArea(x) == 49
+
+    # Example 2
+    x = [4, 9, 8, 2, 3, 7, 6, 4, 5]
+    assert s.maxArea(x) == 35
+
+    print("All tests passed.")

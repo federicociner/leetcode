@@ -39,7 +39,7 @@ if __name__ == "__main__":
     assert sorted(s.findDuplicates(x)) == [2, 3]
 
     # Example 2
-    # x = [1, 2, 3, 3, 5, 6, 6, 8]
-    # assert sorted(s.findDuplicates(x)) == [3, 6]
+    x = [1, 2, 3, 3, 5, 6, 6, 8]
+    assert sorted(s.findDuplicates(x)) == [3, 6]
 
     print("All tests passed.")

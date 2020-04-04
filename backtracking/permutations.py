@@ -19,28 +19,21 @@ from typing import List
 
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
-        visited = [False] * len(nums)
         res = []
-
-        self.backtrack(sorted(nums), visited, [], res)
+        self.backtrack(nums, 0, len(nums), res)
 
         return res
 
     def backtrack(
-        self,
-        nums: List[int],
-        visited: List[int],
-        sub: List[int],
-        res: List[List[int]],
+        self, nums: List[int], first: int, n: int, res: List[List[int]],
     ):
-        if len(sub) == len(nums):
-            res.append(sub)
+        if first == n:
+            res.append(nums[:])
 
-        for i in range(len(nums)):
-            if not visited[i]:
-                visited[i] = True
-                self.backtrack(nums, visited, sub + [nums[i]], res)
-                visited[i] = False
+        for i in range(first, n):
+            nums[first], nums[i] = nums[i], nums[first]
+            self.backtrack(nums, first + 1, n, res)
+            nums[first], nums[i] = nums[i], nums[first]
 
 
 if __name__ == "__main__":
@@ -59,3 +52,5 @@ if __name__ == "__main__":
 
     assert len(actual) == len(expected)
     assert all(i in actual for i in expected)
+
+    print("All tests passed.")
