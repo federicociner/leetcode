@@ -25,6 +25,8 @@ I used a [Trello board](https://trello.com/b/346mxqyH/job-interviews) to keep tr
 1. [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 1. [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
 1. [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)
+1. [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array)
+1. [Majority Element](https://leetcode.com/problems/majority-element)
 
 ### Medium
 
