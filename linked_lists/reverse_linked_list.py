@@ -23,6 +23,8 @@ class ListNode:
 
 
 class Solution:
+    # Time complexity: O(n)
+    # Space complexity: O(1)
     def reverseList(self, head: ListNode) -> ListNode:
         prev = None
         curr = head
@@ -68,3 +70,5 @@ if __name__ == "__main__":
         assert temp1.val == temp2.val
         temp1 = temp1.next
         temp2 = temp2.next
+
+    print("All tests passed.")

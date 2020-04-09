@@ -25,19 +25,26 @@ class Solution:
     def merge(
         self, nums1: List[int], m: int, nums2: List[int], n: int
     ) -> None:
-        m = m - 1
-        n = n - 1
+        nums1_copy = nums1[:m]
+        nums1[:] = []
 
-        while m >= 0 and n >= 0:
-            if nums1[m] > nums2[n]:
-                nums1[m + n + 1] = nums1[m]
-                m -= 1
+        p1 = 0
+        p2 = 0
+
+        while p1 < m and p2 < n:
+            if nums1_copy[p1] < nums2[p2]:
+                nums1.append(nums1_copy[p1])
+                p1 += 1
             else:
-                nums1[m + n + 1] = nums2[n]
-                n -= 1
+                nums1.append(nums2[p2])
+                p2 += 1
 
-        if n != -1:
-            nums1[: n + 1] = nums2[: n + 1]
+        end = p1 + p2
+        if p1 < m:
+            nums1[end:] = nums1_copy[p1:]
+
+        if p2 < n:
+            nums1[end:] = nums2[p2:]
 
 
 if __name__ == "__main__":

@@ -19,6 +19,8 @@ class ListNode:
 
 
 class Solution:
+    # Time complexity: O(n + m)
+    # Space complexity: O(1)
     def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
         curr = ListNode(0)
         res = curr
@@ -72,3 +74,5 @@ if __name__ == "__main__":
         assert temp1.val == temp2.val
         temp1 = temp1.next
         temp2 = temp2.next
+
+    print("All tests passed.")

@@ -11,7 +11,7 @@ Having recently graduated from Georgia Tech's OMSCS program, I finished my last 
 
 ## Questions
 
-I used a [Trello board](https://trello.com/b/346mxqyH/job-interviews) to keep track of the questions that I completed throughout the process. These are organized by specific subcategories, where a set of questions in one subcategory can and should be solved by applying a common pattern or set of patterns.
+I used Anki to track and review the questions that I completed throughout the process. These are organized by specific subcategories, where a set of questions in one subcategory can and should be solved by applying a common pattern or set of patterns.
 
 <details>
     <summary>Arrays</summary>
@@ -27,6 +27,10 @@ I used a [Trello board](https://trello.com/b/346mxqyH/job-interviews) to keep tr
 1. [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)
 1. [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array)
 1. [Majority Element](https://leetcode.com/problems/majority-element)
+1. [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
+1. [Rotate Array](https://leetcode.com/problems/rotate-array/)
+1. [Plus One](https://leetcode.com/problems/plus-one/)
+1. [Move Zeroes](https://leetcode.com/problems/move-zeroes/)
 
 ### Medium
 
@@ -197,6 +201,8 @@ I used a [Trello board](https://trello.com/b/346mxqyH/job-interviews) to keep tr
 
 1. [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 1. [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
+1. [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
+1. [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)]
 
 ### Medium
 
@@ -218,6 +224,7 @@ I used a [Trello board](https://trello.com/b/346mxqyH/job-interviews) to keep tr
 ### Easy
 
 1. [Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)
+1. [Reverse Integer](https://leetcode.com/problems/reverse-integer)
 
 </details>
 
@@ -251,6 +258,16 @@ I used a [Trello board](https://trello.com/b/346mxqyH/job-interviews) to keep tr
 1. [Minimum Number of K Consecutive Bit Flips](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/)
 1. [Unique Letter String](https://leetcode.com/problems/unique-letter-string/)
 1. [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)
+
+</details>
+
+<details>
+    <summary>Stacks and Queues</summary>
+
+### Easy
+
+1. [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+1. [Min Stack](https://leetcode.com/problems/min-stack/)
 
 </details>
 
