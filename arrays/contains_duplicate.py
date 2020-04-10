@@ -29,7 +29,7 @@ class Solution:
         res = {}
 
         for n in nums:
-            if n in res.keys():
+            if n in res:
                 return True
 
             res[n] = True
