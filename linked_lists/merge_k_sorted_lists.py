@@ -21,6 +21,9 @@ class ListNode:
         self.val = x
         self.next = None
 
+    def __str__(self):
+        return f"ListNode{{val: {self.val}, next: {self.next}}}"
+
 
 class Solution:
     def mergeKLists(self, lists: List[ListNode]) -> ListNode:

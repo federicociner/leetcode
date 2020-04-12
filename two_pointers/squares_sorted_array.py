@@ -25,9 +25,12 @@ from typing import List
 
 
 class Solution:
+    # Time complexity: O(n)
+    # Space complexity: O(n)
     def sortedSquares(self, A: List[int]) -> List[int]:
-        # Time complexity: O(n)
-        # Space complexity: O(n)
+        if not A:
+            return []
+
         res = [0] * len(A)
         left = 0
         right = len(A) - 1
@@ -36,10 +39,10 @@ class Solution:
             left_val = abs(A[left])
             right_val = abs(A[right])
             if left_val > right_val:
-                res[right - left] = left_val * left_val
+                res[right - left] = left_val ** 2
                 left += 1
             else:
-                res[right - left] = right_val * right_val
+                res[right - left] = right_val ** 2
                 right -= 1
 
         return res

@@ -21,6 +21,8 @@ from typing import List
 
 
 class Solution:
+    # Time complexity: O(n)
+    # Space complexity: O(1)
     def reverseString(self, s: List[str]) -> None:
         left = 0
         right = len(s) - 1
@@ -47,3 +49,5 @@ if __name__ == "__main__":
     s.reverseString(B)
 
     assert B == expected
+
+    print("All tests passed.")

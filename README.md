@@ -403,9 +403,13 @@ I used Anki to track and review the questions that I completed throughout the pr
 
 ### Easy
 
-1. [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
-1. [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)
 1. [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare)
+1. [Implement strStr()](https://leetcode.com/problems/implement-strstr/)
+1. [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)
+1. [Reverse String](https://leetcode.com/problems/reverse-string/)
+1. [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)
+1. [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
+1. [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
 
 ### Medium
 
