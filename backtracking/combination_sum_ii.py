@@ -37,10 +37,10 @@ class Solution:
     def combinationSum2(
         self, candidates: List[int], target: int
     ) -> List[List[int]]:
-        res = []
-        self.backtrack(sorted(candidates), target, 0, [], res)
+        ans = []
+        self.backtrack(sorted(candidates), target, 0, [], ans)
 
-        return res
+        return ans
 
     def backtrack(
         self,
@@ -48,22 +48,20 @@ class Solution:
         target: int,
         index: int,
         sub: List[int],
-        res: List[List[int]],
+        ans: List[List[int]],
     ):
         if target < 0:
             return
 
         if target == 0:
-            res.append(sub)
+            ans.append(sub)
+
+            return
 
         for i in range(index, len(nums)):
             if i > index and nums[i] == nums[i - 1]:
                 continue
-
-            if nums[i] > target:
-                break
-
-            self.backtrack(nums, target - nums[i], i + 1, sub + [nums[i]], res)
+            self.backtrack(nums, target - nums[i], i + 1, sub + [nums[i]], ans)
 
 
 if __name__ == "__main__":
@@ -82,3 +80,5 @@ if __name__ == "__main__":
 
     assert len(actual) == len(expected)
     assert all(i in actual for i in expected)
+
+    print("All tests passed.")

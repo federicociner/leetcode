@@ -64,3 +64,5 @@ if __name__ == "__main__":
 
     assert len(actual) == len(expected)
     assert all(i in actual for i in expected)
+
+    print("All tests passed.")

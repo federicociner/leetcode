@@ -60,3 +60,5 @@ if __name__ == "__main__":
 
     # Example 1
     assert s.findTargetSumWays([1, 1, 1, 1, 1], 3) == 5
+
+    print("All tests passed.")
