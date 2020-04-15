@@ -34,6 +34,8 @@ from typing import List
 
 
 class Solution:
+    # Time complexity: O(k * 2^n)
+    # Space complexity: O(k * 2^n)
     def combinationSum(
         self, candidates: List[int], target: int
     ) -> List[List[int]]:
@@ -49,7 +51,7 @@ class Solution:
         index: int,
         sub: List[int],
         ans: List[List[int]],
-    ):
+    ) -> None:
         if target < 0:
             return
 

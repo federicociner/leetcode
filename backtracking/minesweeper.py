@@ -61,6 +61,8 @@ from typing import List
 
 
 class Solution:
+    # Time complexity: O(n)
+    # Space complexity: O(n)
     def updateBoard(
         self, board: List[List[str]], click: List[int]
     ) -> List[List[str]]:
@@ -75,7 +77,7 @@ class Solution:
 
             return board
         elif board[x][y] == "E":
-            num_adj_mines = self.num_adj_mines(board, x, y)
+            num_adj_mines = self._num_adj_mines(board, x, y)
 
             if num_adj_mines:
                 board[x][y] = str(num_adj_mines)
@@ -92,28 +94,26 @@ class Solution:
 
             return board
 
-    def num_adj_mines(self, board: List[List[str]], x: int, y: int) -> int:
-        def is_mine(x: int, y: int) -> int:
-            if not (0 <= x < len(board) and 0 <= y < len(board[0])):
-                return 0
-
-            if board[x][y] == "M":
-                return 1
-
-            return 0
-
-        num_adj_mines = (
-            is_mine(x + 1, y)
-            + is_mine(x - 1, y)
-            + is_mine(x, y + 1)
-            + is_mine(x, y - 1)
-            + is_mine(x + 1, y + 1)
-            + is_mine(x + 1, y - 1)
-            + is_mine(x - 1, y + 1)
-            + is_mine(x - 1, y - 1)
+    def _num_adj_mines(self, board: List[List[str]], x: int, y: int) -> int:
+        return (
+            self._is_mine(board, x - 1, y)
+            + self._is_mine(board, x + 1, y)
+            + self._is_mine(board, x, y - 1)
+            + self._is_mine(board, x, y + 1)
+            + self._is_mine(board, x - 1, y - 1)
+            + self._is_mine(board, x + 1, y - 1)
+            + self._is_mine(board, x - 1, y + 1)
+            + self._is_mine(board, x + 1, y + 1)
         )
 
-        return num_adj_mines
+    def _is_mine(self, board: List[List[str]], x: int, y: int) -> int:
+        if not (0 <= x < len(board) and 0 <= y < len(board[0])):
+            return 0
+
+        if board[x][y] == "M":
+            return 1
+
+        return 0
 
 
 if __name__ == "__main__":
@@ -155,3 +155,5 @@ if __name__ == "__main__":
     expected = s.updateBoard(board, click)
 
     assert actual == expected
+
+    print("All tests passed.")

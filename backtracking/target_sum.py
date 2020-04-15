@@ -31,7 +31,7 @@ from collections import defaultdict
 
 
 class Solution:
-    # Time complexity: O(nk)
+    # Time complexity: O(n * k)
     # Space complexity: O(n)
     def findTargetSumWays(self, nums: List[int], S: int) -> int:
         if not nums:
@@ -39,7 +39,6 @@ class Solution:
 
         prev = defaultdict(int)
 
-        # base case
         prev[nums[0]] += 1
         prev[-nums[0]] += 1
 
@@ -49,7 +48,6 @@ class Solution:
             for k, v in prev.items():
                 temp[k + nums[i]] += v
                 temp[k - nums[i]] += v
-
             prev = temp
 
         return prev[S]

@@ -16,6 +16,8 @@ from typing import List
 
 
 class Solution:
+    # Time complexity: O(n * n!)
+    # Space complexity: O(n!)
     def permuteUnique(self, nums: List[int]) -> List[List[int]]:
         visited = [False] * len(nums)
         res = []
@@ -30,7 +32,7 @@ class Solution:
         visited: List[int],
         sub: List[int],
         res: List[List[int]],
-    ):
+    ) -> None:
         if len(sub) == len(nums):
             res.append(sub)
 

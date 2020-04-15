@@ -18,6 +18,8 @@ from typing import List
 
 
 class Solution:
+    # Time complexity: O(n * n!)
+    # Space complexity: O(n!)
     def permute(self, nums: List[int]) -> List[List[int]]:
         visited = [False] * len(nums)
         ans = []
@@ -31,7 +33,7 @@ class Solution:
         visited: List[bool],
         sub: List[int],
         ans: List[List[int]],
-    ):
+    ) -> None:
         if len(sub) == len(nums):
             ans.append(sub)
 

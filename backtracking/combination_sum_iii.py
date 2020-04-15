@@ -21,6 +21,8 @@ from typing import List
 
 
 class Solution:
+    # Time complexity: O(k * 2^n)
+    # Space complexity: O(k * 2^n)
     def combinationSum3(self, k: int, n: int) -> List[List[int]]:
         res = []
         self.backtrack([i for i in range(1, 10)], k, n, 0, [], res)
@@ -35,7 +37,7 @@ class Solution:
         index: int,
         sub: List[int],
         res: List[List[int]],
-    ):
+    ) -> None:
         if k < 0 or n < 0:
             return
 

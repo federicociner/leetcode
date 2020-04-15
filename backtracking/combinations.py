@@ -19,6 +19,8 @@ from typing import List
 
 
 class Solution:
+    # Time complexity: O(k * (N! / (N - k)! * k!))
+    # Space complexity: O(N! / (N - k)! * k!)
     def combine(self, n: int, k: int) -> List[List[int]]:
         res = []
         self.backtrack([i for i in range(1, n + 1)], k, 0, [], res)
@@ -32,7 +34,7 @@ class Solution:
         index: int,
         sub: List[int],
         res: List[List[int]],
-    ):
+    ) -> None:
         if k == 0:
             res.append(sub)
 

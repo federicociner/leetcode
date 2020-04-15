@@ -23,6 +23,8 @@ from typing import List
 
 
 class Solution:
+    # Time complexity: O(2n * n)
+    # Space complexity: O(2n * n)
     def subsets(self, nums: List[int]) -> List[List[int]]:
         if not nums:
             return [[]]
@@ -34,7 +36,7 @@ class Solution:
 
     def dfs(
         self, nums: List[int], idx: int, p: List[int], res: List[List[int]]
-    ):
+    ) -> None:
         res.append(p)
 
         for i in range(idx, len(nums)):

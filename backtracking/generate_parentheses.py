@@ -16,6 +16,8 @@ from typing import List
 
 
 class Solution:
+    # Time complexity: O(4n / sqrt(n))
+    # Space complexity: O(4n / sqrt(n))
     def generateParenthesis(self, n: int) -> List[str]:
         res = []
         self.backtrack(n, n, "", res)
@@ -24,7 +26,7 @@ class Solution:
 
     def backtrack(
         self, left: int, right: int, sub: List[str], res: List[List[str]]
-    ):
+    ) -> None:
         if right < left:
             return
 

@@ -22,6 +22,8 @@ from typing import List
 
 
 class Solution:
+    # Time complexity: O(2n * n)
+    # Space complexity: O(2n * n)
     def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
         if not nums:
             return [[]]
@@ -33,7 +35,7 @@ class Solution:
 
     def dfs(
         self, nums: List[int], index: int, sub: List[int], res: List[List[int]]
-    ):
+    ) -> None:
         if sub not in res:
             res.append(sub)
 

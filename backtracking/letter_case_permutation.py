@@ -30,8 +30,7 @@ class Solution:
 
         return res
 
-    def backtrack(self, S: str, idx: int, sub: str, res: List[str]):
-        # substring length is equal to length of S, all characters traversed
+    def backtrack(self, S: str, idx: int, sub: str, res: List[str]) -> None:
         if len(sub) == len(S):
             res.append(sub)
 
