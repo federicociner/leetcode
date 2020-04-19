@@ -29,9 +29,9 @@ class Solution:
         if not s:
             ans.append(sub)
 
-        for i in range(0, len(s)):
-            if self.is_palindrome(s[: i + 1]):
-                self.backtrack(s[i + 1 :], sub + [s[: i + 1]], ans)
+        for i in range(1, len(s) + 1):
+            if self.is_palindrome(s[:i]):
+                self.backtrack(s[i:], sub + [s[:i]], ans)
 
     def is_palindrome(self, s: str) -> bool:
         return s == s[::-1]
