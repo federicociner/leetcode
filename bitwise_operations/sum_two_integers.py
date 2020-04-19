@@ -28,7 +28,7 @@ class Solution:
 
         while (b & mask) > 0:
             carry = (a & b) << 1
-            a = (a ^ b)
+            a = a ^ b
             b = carry
 
         return (a & mask) if b > 0 else a
@@ -40,19 +40,16 @@ if __name__ == "__main__":
     # Example 1
     a = 1
     b = 2
-
     assert s.getSum(a, b) == 3
 
     # Example 2
     a = 2
     b = 3
-
     assert s.getSum(a, b) == 5
 
     # Example 3
     a = -1
     b = 1
-
     assert s.getSum(a, b) == 0
 
     print("All tests passed.")

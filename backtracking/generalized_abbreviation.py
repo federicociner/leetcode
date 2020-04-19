@@ -36,7 +36,6 @@ class Solution:
         ans = []
         self.backtrack(word, 0, 0, "", ans)
 
-        print(ans)
         return ans
 
     def backtrack(
