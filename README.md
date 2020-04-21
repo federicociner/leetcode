@@ -122,7 +122,7 @@ I used Anki to track and review the questions that I completed throughout the pr
 1. [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
 1. [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 1. [Word Break](https://leetcode.com/problems/word-break/)
-1. [Combination Sum](https://leetcode.com/problems/combination-sum-iv/)
+1. [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)
 1. [Decode Ways](https://leetcode.com/problems/decode-ways/)
 1. [Unique Paths](https://leetcode.com/problems/unique-paths/)
 1. [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)

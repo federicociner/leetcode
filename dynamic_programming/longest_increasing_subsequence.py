@@ -46,7 +46,7 @@ if __name__ == "__main__":
     nums = [10, 9, 2, 5, 3, 7, 101, 18]
     assert s.lengthOfLIS(nums) == 4
 
-    # Exampl2 2
+    # Example 2
     nums = [1, 3, 6, 7, 9, 4, 10, 5, 6]
     assert s.lengthOfLIS(nums) == 6
     print("All tests passed.")
