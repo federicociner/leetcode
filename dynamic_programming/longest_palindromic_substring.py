@@ -54,7 +54,7 @@ class SolutionA:
                     end = i
                     start = j
 
-        return s[start : end + 1]
+        return s[start:end + 1]
 
 
 class SolutionB:
@@ -85,7 +85,7 @@ class SolutionB:
             start -= 1
             end += 1
 
-        return s[start + 1 : end]
+        return s[start + 1:end]
 
 
 if __name__ == "__main__":
