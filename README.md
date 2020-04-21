@@ -129,7 +129,6 @@ I used Anki to track and review the questions that I completed throughout the pr
 1. [Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)
 1. [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)
 1. [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)
-1. [Counting Bits](https://leetcode.com/problems/counting-bits/)
 
 ### Hard
 
