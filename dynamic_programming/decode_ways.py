@@ -47,7 +47,7 @@ class Solution:
         return dp[-1]
 
 
-if __name__ == "__main__":∂
+if __name__ == "__main__":
     S = Solution()
 
     # Example 1
