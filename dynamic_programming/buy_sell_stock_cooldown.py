@@ -22,6 +22,8 @@ from typing import List
 
 
 class Solution:
+    # Time complexity: O(n)
+    # Space complexity: O(n)
     def maxProfit(self, prices: List[int]) -> int:
         if not prices or len(prices) <= 1:
             return 0
@@ -29,17 +31,18 @@ class Solution:
         sell = [0] * len(prices)
         buy = [0] * len(prices)
 
-        # base case
+        # base cases
         sell[0] = 0
+        sell[1] = max(0, prices[1] - prices[0])
         buy[0] = -prices[0]
+        buy[1] = max(buy[0], -prices[1])
 
-        for i in range(1, len(prices)):
-            # buy 1 day before, sell today
+        for i in range(2, len(prices)):
+            # sold yesterday and cool OR bought previous day and now selling
             sell[i] = max(sell[i - 1], buy[i - 1] + prices[i])
 
-            # best buy price if we sell two days ago
-            sell_two_days_ago = sell[i - 2] if i > 1 else 0
-            buy[i] = max(buy[i - 1], sell_two_days_ago - prices[i])
+            # bought previously and hold or sold two days ago and buy now
+            buy[i] = max(buy[i - 1], sell[i - 2] - prices[i])
 
         return sell[-1]
 
