@@ -133,6 +133,7 @@ I used Anki to track and review the questions that I completed throughout the pr
 ### Hard
 
 1. [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)
+1. [Word Break II](https://leetcode.com/problems/word-break-ii/)
 
 </details>
 
