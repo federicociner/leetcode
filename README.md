@@ -31,6 +31,7 @@ I used Anki to track and review the questions that I completed throughout the pr
 1. [Rotate Array](https://leetcode.com/problems/rotate-array/)
 1. [Plus One](https://leetcode.com/problems/plus-one/)
 1. [Move Zeroes](https://leetcode.com/problems/move-zeroes/)
+1. [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)
 
 ### Medium
 
@@ -337,6 +338,7 @@ I used Anki to track and review the questions that I completed throughout the pr
 1. [Binary Search](https://leetcode.com/problems/binary-search/)
 1. [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)
 1. [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)
+1. [First Bad Version](https://leetcode.com/problems/first-bad-version/)
 
 ### Medium
 
