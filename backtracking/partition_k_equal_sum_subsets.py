@@ -29,28 +29,28 @@ class Solution:
 
         visited = [False] * len(nums)
 
-        return self.backtrack(nums, visited, target, k, 0, 0)
+        return self.dfs(nums, visited, target, k, 0, 0)
 
-    def backtrack(
+    def dfs(
         self,
         nums: List[int],
         visited: List[bool],
         target: int,
         k: int,
         index: int,
-        val: int,
+        curr_sum: int,
     ) -> bool:
         if k == 0:
             return True
 
-        if val == target:
-            return self.backtrack(nums, visited, target, k - 1, 0, 0)
+        if curr_sum == target:
+            return self.dfs(nums, visited, target, k - 1, 0, 0)
 
         for i in range(index, len(nums)):
-            if val + nums[i] <= target and not visited[i]:
+            if curr_sum + nums[i] <= target and not visited[i]:
                 visited[i] = True
-                if self.backtrack(
-                    nums, visited, target, k, i + 1, val + nums[i]
+                if self.dfs(
+                    nums, visited, target, k, i + 1, curr_sum + nums[i]
                 ):
                     return True
                 visited[i] = False

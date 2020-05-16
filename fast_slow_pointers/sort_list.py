@@ -55,19 +55,19 @@ class Solution:
             left, right = right, left
 
         head = left
-        dummy = left
+        curr = left
         left = left.next
 
         while left and right:
             if left.val < right.val:
-                dummy.next = left
+                curr.next = left
                 left = left.next
             else:
-                dummy.next = right
+                curr.next = right
                 right = right.next
-            dummy = dummy.next
+            curr = curr.next
 
-        dummy.next = left or right
+        curr.next = left or right
 
         return head
 

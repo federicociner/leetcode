@@ -34,25 +34,19 @@ class Solution:
     # Space complexity: O(n)
     def generateAbbreviations(self, word: str) -> List[str]:
         ans = []
-        self.backtrack(word, 0, 0, "", ans)
+        self.dfs(word, "", ans)
 
         return ans
 
-    def backtrack(
-        self, word: str, index: int, k: int, sub: str, ans: List[str]
-    ) -> None:
-        if index == len(word):
-            if k != 0:
-                sub += str(k)
+    def dfs(self, word: str, sub: str, ans: List[str]) -> None:
+        if not word:
             ans.append(sub)
-        else:
-            self.backtrack(word, index + 1, k + 1, sub, ans)
 
-            if k != 0:
-                sub += str(k)
-
-            sub += word[index]
-            self.backtrack(word, index + 1, 0, sub, ans)
+        for i in range(1, len(word) + 1):
+            if not sub or sub[-1].isalpha():
+                self.dfs(word[i:], sub + str(i), ans)
+            if not sub or sub[-1].isnumeric():
+                self.dfs(word[i:], sub + word[:i], ans)
 
 
 if __name__ == "__main__":
