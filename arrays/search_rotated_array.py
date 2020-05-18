@@ -25,7 +25,7 @@ from typing import List
 
 
 class Solution:
-    # Time complexity: O(log n)
+    # Time complexity: O(log(n))
     # Space complexity: O(1)
     def search(self, nums: List[int], target: int) -> int:
         if not nums:

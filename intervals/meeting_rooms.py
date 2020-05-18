@@ -12,15 +12,12 @@ Example 2:
     Input: [[7,10],[2,4]]
     Output: true
 
-Note: input types have been changed on April 15, 2019. Please reset to default
-code definition to get new method signature.
-
 """
 from typing import List
 
 
 class Solution:
-    # Time complexity: O(n log n)
+    # Time complexity: O(n * log(n))
     # Space complexity: O(n)
     def canAttendMeetings(self, intervals: List[List[int]]) -> bool:
         intervals = sorted(intervals, key=lambda i: i[0])

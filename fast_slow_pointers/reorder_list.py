@@ -23,7 +23,7 @@ class ListNode:
 
 
 class Solution:
-    # Time complexity: O(n log n)
+    # Time complexity: O(n * log(n))
     # Space complexity: O(1)
     def reorderList(self, head: ListNode) -> None:
         if not head:

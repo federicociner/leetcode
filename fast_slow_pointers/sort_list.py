@@ -23,7 +23,7 @@ class ListNode:
 
 
 class Solution:
-    # Time complexity: O(n log n)
+    # Time complexity: O(n * log(n))
     # Space complexity: O(1)
     def sortList(self, head: ListNode) -> ListNode:
         if not head or not head.next:

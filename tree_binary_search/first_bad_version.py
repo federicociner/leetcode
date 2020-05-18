@@ -27,7 +27,7 @@ def isBadVersion(version: int, bad_version: int = 4) -> bool:
 
 
 class Solution:
-    # Time complexity: O(log n)
+    # Time complexity: O(log(n))
     # Space complexity: O(1)
     def firstBadVersion(self, n: int) -> int:
         left = 0

@@ -20,7 +20,7 @@ Example 2:
 
 
 class Solution:
-    # Time complexity: O(log n)
+    # Time complexity: O(log(n))
     # Space complexity: O(1)
     def reverseBits(self, n: int) -> int:
         ans = 0

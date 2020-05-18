@@ -33,7 +33,7 @@ from typing import List
 
 
 class Solution:
-    # Time complexity: O(n * log n)
+    # Time complexity: O(n * log(n))
     # Space complexity: O(1)
     def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:
         nums1 = sorted(nums1)

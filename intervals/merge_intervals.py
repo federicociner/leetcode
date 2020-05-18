@@ -18,7 +18,7 @@ from typing import List
 
 
 class Solution:
-    # Time complexity: O(n log n)
+    # Time complexity: O(n * log(n))
     # Space complexity: O(n)
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         intervals = sorted(intervals, key=lambda i: i[0])
