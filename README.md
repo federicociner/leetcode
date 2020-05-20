@@ -1,10 +1,10 @@
 # LeetCode Interview Questions
 
-A set of solutions to LeetCode questions that I solved in preparation for software engineering interviews at tech companies in the USA and Europe. All of these questions are available on [leetcode.com](leetcode.com), and some of them require a subscription to LeetCode Premium.
+A set of solutions to LeetCode and HackerRank questions that I solved in preparation for software engineering interviews at tech companies in the USA and Europe. All of these questions are available on [LeetCode](leetcode.com) or [HackerRank](hackerrank.com), and some of them require a subscription to LeetCode Premium.
 
 ## Overview
 
-Having recently graduated from Georgia Tech's OMSCS program, I finished my last semester with an algorithms course, which provided the necessary theoretical background for me start practicing with LeetCode problems almost immediately upon starting my job search. Additionally, I reviewed the following resources concurrently with LeetCode practice:
+Having recently graduated from Georgia Tech's OMSCS program, I finished my last semester with an algorithms course, which provided the necessary theoretical background for me start practicing with LeetCode problems almost immediately upon starting my job search. Additionally, I reviewed the following resources concurrently with online practice:
 
 - Cracking the Coding Interview, 6th Edition
 - Elements of Programming Interviews in Python
@@ -173,6 +173,15 @@ I used Anki to track and review the questions that I completed throughout the pr
 </details>
 
 <details>
+    <summary>Greedy</summary>
+
+### Easy
+
+1. [Lemonade Change](https://leetcode.com/problems/lemonade-change/)
+
+</details>
+
+<details>
     <summary>Intervals</summary>
 
 ### Easy
@@ -224,6 +233,7 @@ I used Anki to track and review the questions that I completed throughout the pr
 
 ### Easy
 
+1. [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/)
 1. [Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)
 1. [Reverse Integer](https://leetcode.com/problems/reverse-integer)
 
