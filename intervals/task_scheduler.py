@@ -58,6 +58,16 @@ class Solution:
 
         return curr_time
 
+    def leastIntervalSecond(self, tasks: List[str], n: int) -> int:
+        task_counts = list(Counter(tasks).values())
+        most_frequent_task = max(task_counts)
+        most_frequent_count = task_counts.count(most_frequent_task)
+
+        return max(
+            len(tasks),
+            (most_frequent_task - 1) * (n + 1) + most_frequent_count,
+        )
+
 
 if __name__ == "__main__":
     S = Solution()
@@ -65,6 +75,6 @@ if __name__ == "__main__":
     # Example 1
     tasks = ["A", "A", "A", "B", "B", "B"]
     n = 2
-    assert S.leastInterval(tasks, n) == 8
+    assert S.leastIntervalSecond(tasks, n) == 8
 
     print("All tests passed.")

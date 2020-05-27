@@ -33,6 +33,8 @@ logger.shouldPrintMessage(11,"foo"); returns true;
 
 
 class Logger:
+    # Time complexity: O(1)
+    # Space complexity: O(n)
     def __init__(self):
         """Initialize your data structure here.
 

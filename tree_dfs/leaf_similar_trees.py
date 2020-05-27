@@ -1,36 +1,19 @@
-"""Given a binary tree, determine if it is a valid binary search tree (BST).
+"""Consider all the leaves of a binary tree. From left to right order, the
+values of those leaves form a leaf value sequence.
 
-Assume a BST is defined as follows:
+For example, in the given tree above, the leaf value sequence is (6, 7, 4, 9,
+8).
 
-The left subtree of a node contains only nodes with keys less than the node's
-key.
+Two binary trees are considered leaf-similar if their leaf value sequence is
+the same.
 
-The right subtree of a node contains only nodes with keys greater than the
-node's key.
+Return true if and only if the two given trees with head nodes root1 and root2
+are leaf-similar.
 
-Both the left and right subtrees must also be binary search trees.
+Constraints:
 
-
-Example 1:
-
-    2
-   / \
-  1   3
-
-Input: [2,1,3]
-Output: true
-
-Example 2:
-
-    5
-   / \
-  1   4
-     / \
-    3   6
-
-Input: [5,1,4,null,null,3,6]
-Output: false
-Explanation: The root node's value is 5 but its right child's value is 4.
+Both of the given trees will have between 1 and 200 nodes.
+Both of the given trees will have values between 0 and 200
 
 """
 
@@ -57,26 +40,22 @@ class TreeNode:
 
 
 class Solution:
-    # Time complexity: O(n)
-    # Space complexity: O(n)
-    def isValidBST(self, root: TreeNode) -> bool:
-        return self.dfs(root, float("-inf"), float("inf"))
+    # Time complexity: O(n + m)
+    # Space complexity: O(n + m)
+    def leafSimilar(self, root1: TreeNode, root2: TreeNode) -> bool:
+        leaves1 = self.dfs(root1)
+        leaves2 = self.dfs(root2)
 
-    def dfs(self, node, lower, upper):
+        return leaves1 == leaves2
+
+    def dfs(self, node: TreeNode):
         if not node:
-            return True
+            return []
 
-        val = node.val
+        if not node.left and not node.right:
+            return [node.val]
 
-        if val <= lower or val >= upper:
-            return False
-
-        if not self.dfs(node.right, val, upper):
-            return False
-        if not self.dfs(node.left, lower, val):
-            return False
-
-        return True
+        return self.dfs(node.left) + self.dfs(node.right)
 
 
 if __name__ == "__main__":

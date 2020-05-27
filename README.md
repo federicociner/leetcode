@@ -1,6 +1,6 @@
 # LeetCode Interview Questions
 
-A set of solutions to LeetCode and HackerRank questions that I solved in preparation for software engineering interviews at tech companies in the USA and Europe. All of these questions are available on [LeetCode](leetcode.com) or [HackerRank](hackerrank.com), and some of them require a subscription to LeetCode Premium.
+A set of solutions to LeetCode and HackerRank questions that I solved in preparation for software engineering interviews at tech companies. All of these questions are available on [LeetCode](leetcode.com) or [HackerRank](hackerrank.com), and some of them require a subscription to LeetCode Premium.
 
 ## Overview
 
@@ -18,33 +18,35 @@ I used Anki to track and review the questions that I completed throughout the pr
 
 ### Easy
 
-1. [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
-1. [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)
-1. [Single Number](https://leetcode.com/problems/single-number/)
-1. [Two Sum](https://leetcode.com/problems/two-sum/)
 1. [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
-1. [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
-1. [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)
-1. [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array)
-1. [Majority Element](https://leetcode.com/problems/majority-element)
-1. [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
-1. [Rotate Array](https://leetcode.com/problems/rotate-array/)
-1. [Plus One](https://leetcode.com/problems/plus-one/)
-1. [Move Zeroes](https://leetcode.com/problems/move-zeroes/)
-1. [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)
+2. [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
+3. [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
+4. [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)
+5. [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)
+6. [Majority Element](https://leetcode.com/problems/majority-element)
+7. [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array)
+8. [Move Zeroes](https://leetcode.com/problems/move-zeroes/)
+9. [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)
+10. [Plus One](https://leetcode.com/problems/plus-one/)
+11. [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
+12. [Rotate Array](https://leetcode.com/problems/rotate-array/)
+13. [Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)
+14. [Single Number](https://leetcode.com/problems/single-number/)
+15. [Two Sum](https://leetcode.com/problems/two-sum/)
 
 ### Medium
 
-1. [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
-1. [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
-1. [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
 1. [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
-1. [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+2. [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
+3. [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
+4. [Next Permutation](https://leetcode.com/problems/next-permutation/)
+5. [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
+6. [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 
 ### Hard
 
 1. [First Missing Positive](https://leetcode.com/problems/first-missing-positive/)
-1. [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
+2. [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
 
 </details>
 
@@ -58,25 +60,25 @@ I used Anki to track and review the questions that I completed throughout the pr
 ### Medium
 
 1. [Subsets](https://leetcode.com/problems/subsets/)
-1. [Subsets II](https://leetcode.com/problems/subsets-ii/)
-1. [Permutations](https://leetcode.com/problems/permutations/)
-1. [Permutations II](https://leetcode.com/problems/permutations-ii/)
-1. [Combinations](https://leetcode.com/problems/combinations/)
-1. [Combination Sum](https://leetcode.com/problems/combination-sum/)
-1. [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)
-1. [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)
-1. [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
-1. [Target Sum](https://leetcode.com/problems/target-sum/)
-1. [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
-1. [Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)
-1. [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
-1. [Generalized Abbreviation](https://leetcode.com/problems/generalized-abbreviation/)
-1. [Minesweeper](https://leetcode.com/problems/minesweeper/)
+2. [Subsets II](https://leetcode.com/problems/subsets-ii/)
+3. [Permutations](https://leetcode.com/problems/permutations/)
+4. [Permutations II](https://leetcode.com/problems/permutations-ii/)
+5. [Combinations](https://leetcode.com/problems/combinations/)
+6. [Combination Sum](https://leetcode.com/problems/combination-sum/)
+7. [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)
+8. [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)
+9. [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
+10. [Target Sum](https://leetcode.com/problems/target-sum/)
+11. [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
+12. [Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)
+13. [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
+14. [Generalized Abbreviation](https://leetcode.com/problems/generalized-abbreviation/)
+15. [Minesweeper](https://leetcode.com/problems/minesweeper/)
 
 ### Hard
 
 1. [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)
-1. [N-Queens](https://leetcode.com/problems/n-queens/)
+2. [N-Queens](https://leetcode.com/problems/n-queens/)
 
 </details>
 
@@ -86,9 +88,9 @@ I used Anki to track and review the questions that I completed throughout the pr
 ### Easy
 
 1. [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)
-1. [Missing Number](https://leetcode.com/problems/missing-number/)
-1. [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
-1. [Reverse Bits](https://leetcode.com/problems/reverse-bits/)
+2. [Missing Number](https://leetcode.com/problems/missing-number/)
+3. [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
+4. [Reverse Bits](https://leetcode.com/problems/reverse-bits/)
 
 ### Medium
 
@@ -102,6 +104,12 @@ I used Anki to track and review the questions that I completed throughout the pr
 ### Easy
 
 1. [Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/)
+2. [Design HashMap](https://leetcode.com/problems/design-hashmap/)
+
+### Medium
+
+1. [Design Hit Counter](https://leetcode.com/problems/design-hit-counter/)
+2. [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)
 
 </details>
 
@@ -111,30 +119,31 @@ I used Anki to track and review the questions that I completed throughout the pr
 ### Easy
 
 1. [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
-1. [House Robber](https://leetcode.com/problems/house-robber/)
-1. [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
-1. [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)
+2. [House Robber](https://leetcode.com/problems/house-robber/)
+3. [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
+4. [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)
 
 ### Medium
 
 1. [House Robber II](https://leetcode.com/problems/house-robber-ii/)
-1. [Coin Change](https://leetcode.com/problems/coin-change/)
-1. [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
-1. [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
-1. [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
-1. [Word Break](https://leetcode.com/problems/word-break/)
-1. [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)
-1. [Decode Ways](https://leetcode.com/problems/decode-ways/)
-1. [Unique Paths](https://leetcode.com/problems/unique-paths/)
-1. [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
-1. [Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)
-1. [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)
-1. [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)
+2. [Coin Change](https://leetcode.com/problems/coin-change/)
+3. [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
+4. [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
+5. [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
+6. [Word Break](https://leetcode.com/problems/word-break/)
+7. [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)
+8. [Decode Ways](https://leetcode.com/problems/decode-ways/)
+9. [Unique Paths](https://leetcode.com/problems/unique-paths/)
+10. [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
+11. [Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)
+12. [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)
+13. [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)
 
 ### Hard
 
-1. [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)
-1. [Word Break II](https://leetcode.com/problems/word-break-ii/)
+1. [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)
+2. [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)
+3. [Word Break II](https://leetcode.com/problems/word-break-ii/)
 
 </details>
 
@@ -144,18 +153,18 @@ I used Anki to track and review the questions that I completed throughout the pr
 ### Easy
 
 1. [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
-1. [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
-1. [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
-1. [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)
-1. [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
+2. [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
+3. [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
+4. [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)
+5. [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
 
 ### Medium
 
 1. [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)
-1. [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
-1. [Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
-1. [Sort List](https://leetcode.com/problems/sort-list/)
-1. [Reorder List](https://leetcode.com/problems/reorder-list/)
+2. [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
+3. [Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
+4. [Sort List](https://leetcode.com/problems/sort-list/)
+5. [Reorder List](https://leetcode.com/problems/reorder-list/)
 
 </details>
 
@@ -165,10 +174,11 @@ I used Anki to track and review the questions that I completed throughout the pr
 ### Medium
 
 1. [Clone Graph](https://leetcode.com/problems/clone-graph/)
-1. [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)
-1. [Number of Islands](https://leetcode.com/problems/number-of-islands/)
-1. [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)
-1. [Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
+2. [Friend Circles](https://leetcode.com/problems/friend-circles/)
+3. [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)
+4. [Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
+5. [Number of Islands](https://leetcode.com/problems/number-of-islands/)
+6. [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)
 
 </details>
 
@@ -191,16 +201,16 @@ I used Anki to track and review the questions that I completed throughout the pr
 ### Medium
 
 1. [Merge Intervals](https://leetcode.com/problems/merge-intervals/)
-1. [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)
-1. [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)
-1. [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)
-1. [Task Scheduler](https://leetcode.com/problems/task-scheduler/)
-1. [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)
+2. [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)
+3. [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)
+4. [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)
+5. [Task Scheduler](https://leetcode.com/problems/task-scheduler/)
+6. [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)
 
 ### Hard
 
 1. [Insert Interval](https://leetcode.com/problems/insert-interval/)
-1. [Employee Free Time](https://leetcode.com/problems/employee-free-time/)
+2. [Employee Free Time](https://leetcode.com/problems/employee-free-time/)
 
 </details>
 
@@ -210,21 +220,21 @@ I used Anki to track and review the questions that I completed throughout the pr
 ### Easy
 
 1. [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
-1. [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
-1. [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
-1. [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)]
+2. [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
+3. [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
+4. [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)
 
 ### Medium
 
 1. [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)
-1. [Rotate List](https://leetcode.com/problems/rotate-list/)
-1. [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
-1. [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)
+2. [Rotate List](https://leetcode.com/problems/rotate-list/)
+3. [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
+4. [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)
 
 ### Hard
 
 1. [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
-1. [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)
+2. [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)
 
 </details>
 
@@ -234,8 +244,8 @@ I used Anki to track and review the questions that I completed throughout the pr
 ### Easy
 
 1. [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/)
-1. [Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)
-1. [Reverse Integer](https://leetcode.com/problems/reverse-integer)
+2. [Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)
+3. [Reverse Integer](https://leetcode.com/problems/reverse-integer)
 
 </details>
 
@@ -245,10 +255,10 @@ I used Anki to track and review the questions that I completed throughout the pr
 ### Medium
 
 1. [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
-1. [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
-1. [Rotate Image](https://leetcode.com/problems/rotate-image/)
-1. [Word Search](https://leetcode.com/problems/word-search/)
-1. [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)
+2. [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
+3. [Rotate Image](https://leetcode.com/problems/rotate-image/)
+4. [Word Search](https://leetcode.com/problems/word-search/)
+5. [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)
 
 </details>
 
@@ -258,17 +268,16 @@ I used Anki to track and review the questions that I completed throughout the pr
 ### Medium
 
 1. [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
-1. [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/)
-1. [Permutation in String](https://leetcode.com/problems/permutation-in-string/)
-1. [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
-1. [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+2. [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/)
+3. [Permutation in String](https://leetcode.com/problems/permutation-in-string/)
+4. [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
+5. [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 
 ### Hard
 
 1. [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
-1. [Minimum Number of K Consecutive Bit Flips](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/)
-1. [Unique Letter String](https://leetcode.com/problems/unique-letter-string/)
-1. [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)
+2. [Minimum Number of K Consecutive Bit Flips](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/)
+3. [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)
 
 </details>
 
@@ -278,7 +287,11 @@ I used Anki to track and review the questions that I completed throughout the pr
 ### Easy
 
 1. [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
-1. [Min Stack](https://leetcode.com/problems/min-stack/)
+2. [Min Stack](https://leetcode.com/problems/min-stack/)
+
+### Medium
+
+1. [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)
 
 </details>
 
@@ -288,18 +301,18 @@ I used Anki to track and review the questions that I completed throughout the pr
 ### Medium
 
 1. [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
-1. [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)
-1. [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
-1. [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)
-1. [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
-1. [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)
-1. [Reorganize String](https://leetcode.com/problems/reorganize-string/)
+2. [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)
+3. [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
+4. [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)
+5. [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+6. [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)
+7. [Reorganize String](https://leetcode.com/problems/reorganize-string/)
 
 ### Hard
 
 1. [Rearrange String k Distance Apart](https://leetcode.com/problems/rearrange-string-k-distance-apart)
-1. [Course Schedule III](https://leetcode.com/problems/course-schedule-iii/)
-1. [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)
+2. [Course Schedule III](https://leetcode.com/problems/course-schedule-iii/)
+3. [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)
 
 </details>
 
@@ -309,13 +322,13 @@ I used Anki to track and review the questions that I completed throughout the pr
 ### Medium
 
 1. [Course Schedule](https://leetcode.com/problems/course-schedule/)
-1. [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
-1. [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)
+2. [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
+3. [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)
 
 ### Hard
 
 1. [Alien Dictionary](https://leetcode.com/problems/alien-dictionary)
-1. [Sequence Reconstruction](https://leetcode.com/problems/sequence-reconstruction)
+2. [Sequence Reconstruction](https://leetcode.com/problems/sequence-reconstruction)
 
 </details>
 
@@ -325,18 +338,18 @@ I used Anki to track and review the questions that I completed throughout the pr
 ### Easy
 
 1. [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)
-1. [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)
-1. [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
+2. [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)
+3. [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
 
 ### Medium
 
 1. [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
-1. [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
-1. [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
-1. [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)
-1. [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)
-1. [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)
-1. [Boundary of Binary Tree](https://leetcode.com/problems/boundary-of-binary-tree)
+2. [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
+3. [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
+4. [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)
+5. [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)
+6. [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)
+7. [Boundary of Binary Tree](https://leetcode.com/problems/boundary-of-binary-tree)
 
 </details>
 
@@ -346,18 +359,17 @@ I used Anki to track and review the questions that I completed throughout the pr
 ### Easy
 
 1. [Binary Search](https://leetcode.com/problems/binary-search/)
-1. [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)
-1. [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)
-1. [First Bad Version](https://leetcode.com/problems/first-bad-version/)
+2. [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)
+3. [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)
+4. [First Bad Version](https://leetcode.com/problems/first-bad-version/)
 
 ### Medium
 
 1. [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
-1. [Find Peak Element](https://leetcode.com/problems/find-peak-element/)
-1. [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
-1. [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)
-1. [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
-1. [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
+2. [Find Peak Element](https://leetcode.com/problems/find-peak-element/)
+3. [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)
+4. [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
+5. [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
 
 ### Hard
 
@@ -370,32 +382,33 @@ I used Anki to track and review the questions that I completed throughout the pr
 
 ### Easy
 
-1. [Same Tree](https://leetcode.com/problems/same-tree/)
-1. [Path Sum](https://leetcode.com/problems/path-sum/)
 1. [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)
-1. [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)
-1. [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
-1. [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
-1. [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)
-1. [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
+2. [Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/)
+3. [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
+4. [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
+5. [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
+6. [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)
+7. [Path Sum](https://leetcode.com/problems/path-sum/)
+8. [Same Tree](https://leetcode.com/problems/same-tree/)
+9. [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)
 
 ### Medium
 
-1. [Path Sum II](https://leetcode.com/problems/path-sum-ii/)
-1. [Path Sum III](https://leetcode.com/problems/path-sum-iii/)
-1. [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
-1. [Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)
-1. [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)
 1. [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
-1. [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
-1. [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
-1. [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
+2. [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
+3. [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+4. [Maximum Average Subtree](https://leetcode.com/problems/maximum-average-subtree/)
+5. [Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)
+6. [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)
+7. [Path Sum II](https://leetcode.com/problems/path-sum-ii/)
+8. [Path Sum III](https://leetcode.com/problems/path-sum-iii/)
+9. [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
 
 ### Hard
 
 1. [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
-1. [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
-1. [Word Search II](https://leetcode.com/problems/word-search-ii/)
+2. [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
+3. [Word Search II](https://leetcode.com/problems/word-search-ii/)
 
 </details>
 
@@ -405,8 +418,8 @@ I used Anki to track and review the questions that I completed throughout the pr
 ### Hard
 
 1. [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
-1. [Sliding Window Median](https://leetcode.com/problems/sliding-window-median/)
-1. [IPO](https://leetcode.com/problems/ipo/)
+2. [Sliding Window Median](https://leetcode.com/problems/sliding-window-median/)
+3. [IPO](https://leetcode.com/problems/ipo/)
 
 </details>
 
@@ -416,24 +429,24 @@ I used Anki to track and review the questions that I completed throughout the pr
 ### Easy
 
 1. [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare)
-1. [Implement strStr()](https://leetcode.com/problems/implement-strstr/)
-1. [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)
-1. [Reverse String](https://leetcode.com/problems/reverse-string/)
-1. [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)
-1. [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
-1. [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
+2. [Implement strStr()](https://leetcode.com/problems/implement-strstr/)
+3. [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)
+4. [Reverse String](https://leetcode.com/problems/reverse-string/)
+5. [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)
+6. [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
+7. [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
 
 ### Medium
 
 1. [3Sum](https://leetcode.com/problems/3sum/)
-1. [3Sum Closest](https://leetcode.com/problems/3sum-closest/)
-1. [Subarrays with Product Less than K](https://leetcode.com/problems/subarray-product-less-than-k/)
-1. [Sort Colours](https://leetcode.com/problems/sort-colors/)
+2. [3Sum Closest](https://leetcode.com/problems/3sum-closest/)
+3. [Subarrays with Product Less than K](https://leetcode.com/problems/subarray-product-less-than-k/)
+4. [Sort Colours](https://leetcode.com/problems/sort-colors/)
 
 ### Hard
 
 1. [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
-1. [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
+2. [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
 
 </details>
 

@@ -29,8 +29,7 @@ Note:
     appear together in edges.
 
 """
-from typing import Dict
-from typing import List
+from typing import Dict, List
 
 
 class Solution:

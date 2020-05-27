@@ -17,8 +17,7 @@ edges are undirected, [0,1] is the same as [1,0] and thus will not appear
 together in edges.
 
 """
-from typing import Dict
-from typing import List
+from typing import Dict, List
 
 
 class Solution:
