@@ -31,21 +31,89 @@ Example:
 """
 
 
+class DoublyLinkedNode:
+    def __init__(self):
+        self.key = 0
+        self.value = 0
+        self.prev = None
+        self.next = None
+
+
 class LRUCache:
     # Time complexity: O(1)
     # Space complexity: O(n)
     def __init__(self, capacity: int):
-        pass
+        self.cache = {}
+        self.size = 0
+        self.capacity = capacity
+        self.head = DoublyLinkedNode()
+        self.tail = DoublyLinkedNode()
+        self.head.next = self.tail
+        self.tail.prev = self.head
+
+    def _add_node(self, node: DoublyLinkedNode) -> None:
+        """Add new node to the right of the head node. """
+        node.prev = self.head
+        node.next = self.head.next
+
+        self.head.next.prev = node
+        self.head.next = node
+
+    def _remove_node(self, node) -> None:
+        """Remove an existing node from the linked list. """
+        prev = node.prev
+        new = node.next
+
+        prev.next = new
+        new.prev = prev
+
+    def _move_to_head(self, node: DoublyLinkedNode) -> None:
+        self._remove_node(node)
+        self._add_node(node)
+
+    def _pop_tail(self) -> DoublyLinkedNode:
+        node = self.tail.prev
+        self._remove_node(node)
+
+        return node
 
     def get(self, key: int) -> int:
-        pass
+        node = self.cache.get(key, None)
+
+        if not node:
+            return -1
+
+        # move accessed node to the head
+        self._move_to_head(node)
+
+        return node.value
 
     def put(self, key: int, value: int) -> None:
-        pass
+        node = self.cache.get(key, None)
+
+        if not node:
+            new_node = DoublyLinkedNode()
+            new_node.key = key
+            new_node.value = value
+
+            self.cache[key] = new_node
+            self._add_node(new_node)
+
+            self.size += 1
+
+            if self.size > self.capacity:
+                # invalidate LRU node
+                tail = self._pop_tail()
+                del self.cache[tail.key]
+                self.size -= 1
+        else:
+            # update the value
+            node.value = value
+            self._move_to_head(node)
 
 
 if __name__ == "__main__":
-    cache = LRUCache()
+    cache = LRUCache(capacity=2)
 
     # Example 1
     cache.put(1, 1)
@@ -57,3 +125,5 @@ if __name__ == "__main__":
     assert cache.get(1) == -1
     assert cache.get(3) == 3
     assert cache.get(4) == 4
+
+    print("All tests passed.")
