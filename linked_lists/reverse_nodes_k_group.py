@@ -33,47 +33,28 @@ class Solution:
     # Time complexity: O(n)
     # Space complexity: O(1)
     def reverseKGroup(self, head: ListNode, k: int) -> ListNode:
-        curr = head
-        k_tail = None
-        new_head = None
+        left = 0
+        node = head
 
-        while curr:
-            count = 0
-            curr = head
+        while node:
+            left += 1
+            node = node.next
 
-            while count < k and curr:
-                curr = curr.next
-                count += 1
+        if k <= 1 or left < k:
+            return head
 
-            if count == k:
-                reversed_head = self.reverseList(head, k)
-
-                if not new_head:
-                    new_head = reversed_head
-
-                if k_tail:
-                    k_tail.next = reversed_head
-
-                k_tail = head
-                head = curr
-
-        if k_tail:
-            k_tail.next = head
-
-        return new_head if new_head else head
-
-    def reverseList(self, head: ListNode, k: int) -> ListNode:
-        prev = None
+        node = None
         curr = head
 
-        while k:
+        for _ in range(k):
             next_node = curr.next
-            curr.next = prev
-            prev = curr
+            curr.next = node
+            node = curr
             curr = next_node
-            k -= 1
 
-        return prev
+        head.next = self.reverseKGroup(curr, k)
+
+        return node
 
 
 if __name__ == "__main__":
