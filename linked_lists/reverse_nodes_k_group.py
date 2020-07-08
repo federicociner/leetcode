@@ -43,18 +43,18 @@ class Solution:
         if k <= 1 or left < k:
             return head
 
-        node = None
+        prev = None
         curr = head
 
         for _ in range(k):
             next_node = curr.next
-            curr.next = node
-            node = curr
+            curr.next = prev
+            prev = curr
             curr = next_node
 
         head.next = self.reverseKGroup(curr, k)
 
-        return node
+        return prev
 
 
 if __name__ == "__main__":

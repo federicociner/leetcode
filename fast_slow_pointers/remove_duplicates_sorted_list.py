@@ -35,7 +35,6 @@ class Solution:
             else:
                 curr = curr.next
 
-        # print(head)
         return head
 
 

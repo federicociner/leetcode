@@ -269,9 +269,8 @@ I used Anki to track and review the questions that I completed throughout the pr
 
 1. [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
 2. [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/)
-3. [Permutation in String](https://leetcode.com/problems/permutation-in-string/)
-4. [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
-5. [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+3. [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
+4. [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 
 ### Hard
 
